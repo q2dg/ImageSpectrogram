@@ -3,8 +3,8 @@ It converts an image to a sound clip. The spectrogram of the clip reproduces tha
 
 # Instructions
 + Install dependencies 
-  In Ubuntu: *sudo apt install build-essential libpng-dev libjpeg-dev*
-  In Fedora: *sudo dnf install gcc libpng-devel libjpeg-turbo-devel*
+  + In Ubuntu: *sudo apt install build-essential libpng-dev libjpeg-dev*
+  + In Fedora: *sudo dnf install gcc libpng-devel libjpeg-turbo-devel*
 + Compile: *gcc -o imageSpectrogram imageSpectrogram.c -lm -lpng -ljpeg*
 + Run: *./imageSpectrogram imageSpectrogram.c originalImage.png [output.wav]*
 
