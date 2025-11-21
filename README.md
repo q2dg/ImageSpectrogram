@@ -8,7 +8,7 @@ To "see" the hidden image "drawn" in a spectrogram you can open the wav file wit
   + In Ubuntu: *sudo apt install build-essential libpng-dev libjpeg-dev*
   + In Fedora: *sudo dnf install gcc libpng-devel libjpeg-turbo-devel*
 + Compile: *gcc -o imageSpectrogram imageSpectrogram.c -lm -lpng -ljpeg*
-+ Run: *./imageSpectrogram imageSpectrogram.c originalImage.png [output.wav]*
++ Run: *./imageSpectrogram originalImage.png [output.wav]*
 
 # Notes
 + Output is a mono 16bits 44100MHz PCM audio file. If not specified output file name, by default is "out.wav"
